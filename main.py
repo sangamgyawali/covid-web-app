@@ -55,7 +55,7 @@ if togg == 'Cases in the United States':
          "Tennessee", "Texas", "Utah", "Virginia", "Virgin Islands", "Vermont", "Washington",
          "Wisconsin", "West Virginia", "Wyoming"))
     selbox = dfc[dfc['state'] == option]
-    fig = px.bar(selbox, x='date', y='cases', hover_data=['date', 'cases'], height=400)
+    fig = px.bar(selbox, x='date', y='cases', hover_data=['date', 'cases','state' ,'county'], height=600)
     st.write('You selected:', option)
     st.write(fig)
     st.write(" ")
