@@ -75,9 +75,9 @@ if togg == 'How red does the World look':
     st.map(mapdata)
     st.write(" ")
     st.write("We can see that the red dots are all over the world. "
-             "The red dots denote the spread of the virus. Even the smallest of islands are infected, as I noticed "
-             "the red dots in the middle of ocean. "
-             "But this is not the only spread. So, try to zoom in and out to the spread all over the world. "
+             "The red dots denote the deaths due to the virus. Even the smallest of islands are affected adversely, as I noticed "
+             "the red dots in the middle of ocean.So, try to zoom in and out to the see the chaos all over the world.  "
+             "But these are not the only deaths. "
              "The visualization is lacking for the places whose latitudes"
              " and longitudes were missing in the dataset. So, this is not just the problem of the United "
              "States but it has become a global problem. It is about time the novel coronavirus is taken seriously.")
